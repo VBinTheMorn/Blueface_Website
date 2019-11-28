@@ -1,0 +1,169 @@
+/* CSS relating to Banner & Logo */
+#banner_background {
+    background-color:#2d7ac6;
+    width:100%;
+    height:120px;
+}
+#banner_logo {
+    position:absolute;
+    margin-left:5%;
+    height:100px;
+    top:10px;
+}
+#banner_title {
+    position:absolute;
+    left:250px;
+    height:120px;
+}
+
+/* CSS relating to navigation-bar */
+#navigation_bar {
+    background-color:#474747;
+    width:100%;
+    height:40px;
+    position:relative;
+}
+.navigation_image {
+    position:relative;
+    top:1px;
+    height:36px;
+}
+a {
+    text-decoration:none;
+}
+audio {
+    position:absolute;
+    right:0;
+    width:280px;
+    background-color:#474747;
+}
+
+/* CSS relating to slideshow (Copied from W3Schools) */
+* {box-sizing:border-box}
+/* Slideshow container */
+.slideshow-container {
+  width:980px;
+  height:620px;
+  position: relative;
+  margin: auto;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* CSS relating to main text */
+.main_text_div {
+    width:935px;
+    border-style:ridge;
+    border-color:#2d7ac6;
+    border-width:10px;
+    position:relative;
+    left:5%;
+    background:rgba(255, 255, 255, 0.8);
+    padding:15px;
+    float:left;
+}
+.main_text_image {
+    width:780px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.main_text_div_si {
+  position:relative;
+  float:right;
+  clear:right;
+  border-style:ridge;
+  border-color:#2d7ac6;
+  border-width:10px;
+  right:4%;
+  width:300px;
+  background:rgba(255, 255, 255, 0.8);
+}
+.album_covers {
+    position:relative;
+    float:right;
+    clear:right;
+    width:300px;
+    border-style:ridge;
+    border-color:#2d7ac6;
+    border-width:10px;
+    right:4%;
+}
+.sub_text {
+    font-size:20px;
+    text-align:center;
+}
+video {
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+/* General CSS */
+body {
+    margin:0px;
+    background-image:url("../imgs/bg2.jpg");
+}
+hr {
+    width:80%;
+    size:50px;
+    border-width:2px;
+}
+.si_image {
+  height:50px;
+  width:50px;
+  position:relative;
+  float:left;
+  margin-left:5px;
+}
